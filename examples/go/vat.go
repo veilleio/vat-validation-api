@@ -42,7 +42,7 @@ func main() {
 	_ = url.Values{}
 	_ = json.Valid
 	params := url.Values{}
-	params.Set("query", "YOUR_VALUE")
+	params.Set("query", "FR40303265045")
 	target := "https://api.veille.io/v1/vat"
 	if len(params) > 0 {
 		target += "?" + params.Encode()

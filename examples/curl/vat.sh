@@ -5,4 +5,4 @@ set -euo pipefail
 
 curl -sS -G "https://api.veille.io/v1/vat" \
   -H "x-api-key: ${VEILLE_API_KEY}" \
-  --data-urlencode query=YOUR_VALUE
+  --data-urlencode query=FR40303265045

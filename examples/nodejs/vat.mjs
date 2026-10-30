@@ -4,7 +4,7 @@
 const headers = { "x-api-key": process.env.VEILLE_API_KEY, "Content-Type": "application/json" };
 
 const params = new URLSearchParams({
-  "query": "YOUR_VALUE",
+  "query": "FR40303265045",
 });
 const response = await fetch(`https://api.veille.io/v1/vat?${params}`, { headers });
 if (!response.ok) {
